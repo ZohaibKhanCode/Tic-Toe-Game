@@ -1,0 +1,151 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#BEB7DF ;
+    text-align: center;
+}
+.container {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    
+}
+.box{
+    height: 17vmin;
+    width: 107min;
+    border-radius: 1rem;
+    padding: 1vmin;
+    border: none;
+    font-size:5vmin ;
+    color: #34113F;
+    background-color:#948db0 ;
+    text-align: center;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:#8f85ba ;
+    border-radius: 1rem;
+    border: none;
+}
+#new-game{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(107, 123, 176);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    display: inline-block;
+}
+#msg{
+    color:rgb(18, 29, 30) ;
+    font-size: 6vmin;
+}
+.hide{
+    display: none;
+}
+.msg-container {
+    height: 20vmin;
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    /* justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem; */
+    /* gap: 1rem; Adds spacing between items */
+/* } */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BEB7DF;
+    text-align: center;
+    min-height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 17vmin;
+    width: 17vmin;
+    border-radius: 1rem;
+    padding: 1vmin;
+    border: none;
+    font-size: 5vmin;
+    color: #34113F;
+    background-color: #948db0;
+    text-align: center;
+}
+
+#reset {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #8f85ba;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-game {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(107, 123, 176);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    display: inline-block;
+}
+
+#msg {
+    color: rgb(18, 29, 30);
+    font-size: 6vmin;
+}
+
+.hide {
+    display: none;
+}
+
+.msg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
